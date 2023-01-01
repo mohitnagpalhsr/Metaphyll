@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+.index{
+    display: inline-block;
+    width: 40%;
+}
+
+h1{
+    color:plum;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+}
+
+.main{
+    display: inline;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.email{
+    color:palegreen;
+    font-size: 1.5em;
+}
+
+.password{
+    color:palegreen;
+    font-size: 1.5em;
+}
