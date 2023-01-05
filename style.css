@@ -1,6 +1,11 @@
 body{
     text-align: center;
     background-color: aliceblue;
+    background-image: linear-gradient(#3A4F7A, #FEA1BF);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .index{
     display: inline-block;
@@ -18,15 +23,19 @@ h1{
 }
 
 input{
-    border-radius: 5px;
+    border-color: lightyellow;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
 }
 
 .email{
-    color:palegreen;
+    /*color:palegreen;*/
+    color: #FFE7CC;
     font-size: 1.5em;
 }
 
 .password{
-    color:palegreen;
+    color: #FFE7CC; 
     font-size: 1.5em;
 }
